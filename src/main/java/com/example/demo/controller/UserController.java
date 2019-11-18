@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.demo.model.User;
 
+import com.example.demo.model.User;
 @RestController
 public class UserController {
 	final String URL_TO_CALL = "http://jsonplaceholder.typicode.com/users";
@@ -38,5 +38,6 @@ public class UserController {
 		}
 		return null;
 	}
+
 	
 }
